@@ -20,7 +20,7 @@ const Navbar = () => {
                     </div> */}
                     </div>
                     <div className="flex justify-between rounded-lg bg-slate-900 h-[8vh] border-[0.05vw] border-stroke">
-                        <Link to="/portfolio" className="text-white flex items-center justify-center rounded-lg bg-slate-900 p-[0.5vw]">
+                        <Link to="/MyPortfolio" className="text-white flex items-center justify-center rounded-lg bg-slate-900 p-[0.5vw]">
                             BrylDev.
                         </Link>
                         <div className="flex rounded-lg bg-slate-900 p-[0.5vw] w-[3vw] h-[3vh] cursor-pointer" onClick={
@@ -48,7 +48,7 @@ const Navbar = () => {
             )}
             {!isMenuOpen && (
                 <div className="fixed bottom-10 left-[40.1%] flex justify-between rounded-lg border-[0.05vw] border-stroke w-min" style={{ backgroundColor: 'rgba(34, 34, 34, 0.8)', color: 'white', padding: '0.4vw' }}>
-                    <Link to="/portfolio" className=" text-white flex items-center justify-center w-[45%] rounded-lg bg-slate-900 p-[0.9vw] ">
+                    <Link to="/MyPortfolio" className=" text-white flex items-center justify-center w-[45%] rounded-lg bg-slate-900 p-[0.9vw] ">
                         BrylDev.
                     </Link>
                     <div className="flex justify-between w-[45%] rounded-lg bg-slate-900 p-[0.5vw] cursor-pointer px-3" onClick={
