@@ -8,10 +8,10 @@ const Navbar = () => {
             {isMenuOpen && (
                 <div className="transition ease-in-out delay-150 fixed bottom-10 left-[25%] flex flex-col rounded-lg p-[0.4vw] text-white w-[50vw] h-[38vh]" style={{ backgroundColor: 'rgba(34, 34, 34, 0.8)' }}>
                     <div className="flex flex-col justify-evenly mb-[0.5vh] bg-slate-900 rounded-lg h-full w-full border-[0.05vw] border-stroke">
-                        <Link to="/portfolio/about" className="text-left border-b border-dashed p-[0.7vw] text-white">About</Link>
-                        <Link to="/portfolio/skills" className="text-left border-b border-dashed p-[0.7vw] text-white">Skills</Link>
-                        <Link to="/portfolio/experience" className="text-left border-b border-dashed p-[0.7vw] text-white">Experience</Link>
-                        <Link to="/portfolio/contact" className="text-left p-[0.7vw] text-white">Contact</Link>
+                        <Link to="/MyPortfolio/about" className="text-left border-b border-dashed p-[0.7vw] text-white">About</Link>
+                        <Link to="/MyPortfolio/skills" className="text-left border-b border-dashed p-[0.7vw] text-white">Skills</Link>
+                        <Link to="/MyPortfolio/experience" className="text-left border-b border-dashed p-[0.7vw] text-white">Experience</Link>
+                        <Link to="/MyPortfolio/contact" className="text-left p-[0.7vw] text-white">Contact</Link>
                         {/* <div className="flex justify-around">
                         <div className="flex items-end justify-center">Twitter</div>
                         <div className="flex items-end justify-center">Github <sub>@beryl452</sub></div>
