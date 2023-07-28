@@ -11,11 +11,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/portfolio" element={<Home />} />
-        <Route path="/portfolio/about" element={<About />} />
-        <Route path="/portfolio/contact" element={<Contact />} />
-        <Route path="/portfolio/skills" element={<Skills />} />
-        <Route path="/portfolio/Experience" element={<Experience />} />
+        <Route path="/myportfolio" element={<Home />} />
+        <Route path="/myportfolio/about" element={<About />} />
+        <Route path="/myportfolio/contact" element={<Contact />} />
+        <Route path="/myportfolio/skills" element={<Skills />} />
+        <Route path="/myportfolio/Experience" element={<Experience />} />
       </Routes>
     </BrowserRouter>
   )
