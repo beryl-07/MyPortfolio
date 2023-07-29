@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 function Home() {
@@ -7,7 +8,7 @@ function Home() {
                 <div className="flex justify-between h-[15vh] px-[3vw] ">
                     <div className="col-span-1 grid place-items-center max-lg:text-xs">Bryl dev.</div>
                     <div className="col-span-3 grid place-items-center max-lg:text-xs">Based in Cotonou<br /> Benin</div>
-                    <div className="col-span-1 grid place-items-center max-lg:text-xs">contact</div>
+                    <div className="col-span-1 grid place-items-center max-lg:text-xs"><Link to="/contact" className="text-slate-700 hover:text-slate-700">contact</Link> </div>
                 </div>
                 <div className=" flex justify-start items-end col-start-2 pl-[12vw] h-[25vh] pb-2 ">
                     <p className=" w-[17.9vw] text-sm text-left max-lg:w-[38vw] max-lg:text-xs">
