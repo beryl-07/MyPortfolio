@@ -8,7 +8,7 @@ function Contact() {
             {/* </div> */}
             <div className="grid grid-cols-1 place-content-around w-[95%] h-screen">
                 <div className="text-center bg-slate-900 flex justify-center items-center p-[1.5vw] rounded-lg">
-                    <h1 className=" text-white text-[10.5vw] ">DROP ME A LINE</h1>
+                    <h1 className=" text-white text-[10.5vw]">DROP ME A LINE</h1>
                 </div>
                 <div className="flex w-full justify-between items-start h-[30vh] ">
                     <div className="grid w-[30%] h-full place-items-center ">
