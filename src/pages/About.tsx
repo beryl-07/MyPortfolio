@@ -31,7 +31,7 @@ function About() {
                         </ul>
                         <div className="flex w-full max-lg:w-[50%] max-lg:justify-evenly">
                             <a
-                                href="#"
+                                href="https://1drv.ms/w/s!An6Of0ilaja5gZ4t4I3mTZQnrbhWRw?e=czP52h"
                                 className="text-cyan-950 flex justify-evenly px-[1.9%] w-[18%] max-lg:w-[60%] "
                             >
                                 <svg
