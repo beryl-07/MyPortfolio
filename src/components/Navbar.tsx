@@ -8,10 +8,10 @@ const Navbar = () => {
             {isMenuOpen && (
                 <div className="transition ease-in-out delay-150 fixed bottom-10 left-[25%] flex flex-col rounded-lg p-[0.4vw] text-white w-[50vw] h-[38vh]" style={{ backgroundColor: 'rgba(34, 34, 34, 0.8)' }}>
                     <div className="flex flex-col justify-evenly mb-[0.5vh] bg-slate-900 rounded-lg h-full w-full border-[0.05vw] border-stroke">
-                        <Link to="/MyPortfolio/about" className="text-left border-b border-dashed p-[0.7vw] text-white">About</Link>
-                        <Link to="/MyPortfolio/skills" className="text-left border-b border-dashed p-[0.7vw] text-white">Skills</Link>
-                        <Link to="/MyPortfolio/experience" className="text-left border-b border-dashed p-[0.7vw] text-white">Experience</Link>
-                        <Link to="/MyPortfolio/contact" className="text-left p-[0.7vw] text-white">Contact</Link>
+                        <Link to="/about" className="text-left border-b border-dashed p-[0.7vw] text-white">About</Link>
+                        <Link to="/skills" className="text-left border-b border-dashed p-[0.7vw] text-white">Skills</Link>
+                        <Link to="/experience" className="text-left border-b border-dashed p-[0.7vw] text-white">Experience</Link>
+                        <Link to="/contact" className="text-left p-[0.7vw] text-white">Contact</Link>
                         {/* <div className="flex justify-around">
                         <div className="flex items-end justify-center">Twitter</div>
                         <div className="flex items-end justify-center">Github <sub>@beryl452</sub></div>
@@ -20,7 +20,7 @@ const Navbar = () => {
                     </div> */}
                     </div>
                     <div className="flex justify-between rounded-lg bg-slate-900 h-[8vh] border-[0.05vw] border-stroke">
-                        <Link to="/MyPortfolio" className="text-white flex items-center justify-center rounded-lg bg-slate-900 p-[0.5vw]">
+                        <Link to="/" className="text-white flex items-center justify-center rounded-lg bg-slate-900 p-[0.5vw]">
                             BrylDev.
                         </Link>
                         <div className="flex rounded-lg bg-slate-900 p-[0.5vw] w-[3vw] h-[3vh] cursor-pointer" onClick={
@@ -49,7 +49,7 @@ const Navbar = () => {
             )}
             {!isMenuOpen && (
                 <div className="fixed bottom-10 left-[40.1%] flex justify-between rounded-lg border-[0.05vw] border-stroke p-[0.4vw] w-[18vw] h-[11.5vh] max-lg:w-[40vw] max-lg:left-[30%] max-lg:h-[9vh] text-white" style={{ backgroundColor: 'rgba(34, 34, 34, 0.8)'}}>
-                    <Link to="/MyPortfolio" className=" text-white flex items-center justify-center w-[45%] rounded-lg bg-slate-900  p-[0.9vw] ">
+                    <Link to="/" className=" text-white flex items-center justify-center w-[45%] rounded-lg bg-slate-900  p-[0.9vw] ">
                         BrylDev.
                     </Link>
                     <div className="flex justify-between items-center w-[42%] rounded-lg bg-slate-900 p-[0.5vw] cursor-pointer px-3" onClick={
