@@ -6,7 +6,7 @@ function Home() {
         <main className="m-0 w-screen h-screen">
             <div className="m-0">
                 <div className="flex justify-between h-[15vh] px-[3vw] ">
-                    <div className="col-span-1 grid place-items-center max-lg:text-xs">Bryl dev.</div>
+                    <div className="col-span-1 grid place-items-center max-lg:text-xs">BrylDev.</div>
                     <div className="col-span-3 grid place-items-center max-lg:text-xs">Based in Cotonou<br /> Benin</div>
                     <div className="col-span-1 grid place-items-center max-lg:text-xs"><Link to="/MyPortfolio/contact" className="text-slate-700 hover:text-slate-700">contact</Link> </div>
                 </div>
