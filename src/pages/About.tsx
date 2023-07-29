@@ -4,13 +4,13 @@ function About() {
     return (
         <main className="m-0 w-screen h-screen">
             <div className="fixed top-7 left-[5%] ">
-                <div className="text-2xl">Bryl dev.</div>
+                <div className="text-2xl max-lg:text-xl">BrylDev.</div>
             </div>
             <div className="flex justify-center w-screen h-screen ">
                 <div className="text-left w-[60%] flex justify-start items-center p-[1.5vw]">
                     <div className="h-[70%] grid content-evenly">
-                        <div className="text-3xl">ABOUT ME</div>
-                        <div className="text-lg">
+                        <div className="text-3xl max-lg:text-2xl">ABOUT ME</div>
+                        <div className="text-lg max-lg:text-base">
                             Hey, I'm Béryl HOUESSOU, a mobile and backend developer (Laravel and NodeJS) currently
                             finishing my degree in Computer and Software Systems (SIL). I'm passionate about web
                             app development and with my growing interest in Android app development, I've decided
@@ -18,7 +18,7 @@ function About() {
                             playing basketball in my free time.
                         </div>
                         <ul className="list-none list-inside">
-                            <h3 className="font-semibold text-xl">LANGUAGES</h3>
+                            <h3 className="font-semibold text-xl max-lg:text-lg max-lg:pb-1">LANGUAGES</h3>
                             <li>
                                 <span>French <sub>Native</sub></span>
                             </li>
@@ -29,20 +29,20 @@ function About() {
                                 <span>Fon <sub>Native</sub></span>
                             </li>
                         </ul>
-                        <div className="flex w-full">
+                        <div className="flex w-full max-lg:w-[50%] max-lg:justify-evenly">
                             <a
-
                                 href="#"
-                                className="text-cyan-950 flex justify-between px-[1.9%] w-[18%]"
+                                className="text-cyan-950 flex justify-evenly px-[1.9%] w-[18%] max-lg:w-[60%] "
                             >
                                 <svg
-                                    width={23}
-                                    height={23}
+                                    width={32}
+                                    height={32}
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     strokeWidth={2}
                                     stroke="#213547"
+                                    className="w-6 h-6"
                                 >
                                     <path
                                         strokeLinecap="round"
@@ -55,16 +55,17 @@ function About() {
                             <a
 
                                 href="#"
-                                className="text-cyan-950 flex justify-between px-[1.9%] w-[15%]"
+                                className="text-cyan-950 flex justify-evenly px-[1.9%] w-[15%] max-lg:w-[40%]"
                             >
                                 <svg
-                                    width={23}
-                                    height={23}
+                                    width={32}
+                                    height={32}
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     strokeWidth={2}
                                     stroke="#213547"
+                                    className="w-6 h-6"
                                 >
                                     <path
                                         strokeLinecap="round"

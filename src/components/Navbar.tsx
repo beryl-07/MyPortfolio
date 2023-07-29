@@ -35,8 +35,8 @@ const Navbar = () => {
                                 viewBox="0 0 4 4"
                                 enableBackground="new 0 0 32 32"
                                 xmlSpace="preserve"
-                                // className="w-[2000%] h-[100%]"
-                            >
+                                className="bold"
+                                >
                                 <path
                                     d="M0.287 3.713a0.125 0.125 0 0 0 0.177 0L2 2.177l1.537 1.536a0.125 0.125 0 0 0 0.177 -0.177L2.177 2 3.713 0.463a0.125 0.125 0 0 0 -0.177 -0.177L2 1.823 0.463 0.287a0.125 0.125 0 0 0 -0.176 0.176L1.823 2 0.287 3.537a0.125 0.125 0 0 0 0 0.176z"
                                     fill="#fff"
@@ -48,11 +48,11 @@ const Navbar = () => {
                 </div>
             )}
             {!isMenuOpen && (
-                <div className="fixed bottom-10 left-[40.1%] flex justify-between rounded-lg border-[0.05vw] border-stroke p-[0.4vw] w-[20vw] h-[11.5vh] max-lg:w-[40vw] max-lg:left-[30%]  text-white" style={{ backgroundColor: 'rgba(34, 34, 34, 0.8)'}}>
+                <div className="fixed bottom-10 left-[40.1%] flex justify-between rounded-lg border-[0.05vw] border-stroke p-[0.4vw] w-[18vw] h-[11.5vh] max-lg:w-[40vw] max-lg:left-[30%] max-lg:h-[9vh] text-white" style={{ backgroundColor: 'rgba(34, 34, 34, 0.8)'}}>
                     <Link to="/MyPortfolio" className=" text-white flex items-center justify-center w-[45%] rounded-lg bg-slate-900  p-[0.9vw] ">
                         BrylDev.
                     </Link>
-                    <div className="flex justify-between w-[45%] rounded-lg bg-slate-900 p-[0.5vw] cursor-pointer px-3" onClick={
+                    <div className="flex justify-between items-center w-[42%] rounded-lg bg-slate-900 p-[0.5vw] cursor-pointer px-3" onClick={
                         () => {
                             setIsMenuOpen(!isMenuOpen)
                         }
@@ -64,7 +64,7 @@ const Navbar = () => {
                             viewBox="0 0 32 32"
                             enableBackground="new 0 0 32 32"
                             xmlSpace="preserve"
-                            className="w-[100%] h-[100%]"
+                            className="w-[5vw] h-[5vw]"
                         >
                             <g>
                                 <path
