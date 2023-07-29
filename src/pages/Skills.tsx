@@ -115,8 +115,11 @@ function Skills() {
       </head>
       <main className="m-0 w-screen h-screen  overflow-x-hidden">
         <div className="grid grid-cols-[5vw_5vw_5vw_80vw_5vw]">
-          <div className=" h-[15vh] w-full col-span-3 grid place-content-center">
-            <div className="text-3xl">BrylDev.</div>
+          <div className=" h-[15vh] max-lg:h-[10vh] w-full col-span-3 grid place-content-center">
+            {/* <div className="text-3xl">BrylDev.</div> */}
+            <div className="fixed top-7 left-[5%] ">
+                <div className="text-3xl max-lg:text-2xl">BrylDev.</div>
+            </div>
           </div>
           <div className=" h-[15vh] w-full col-start-2 col-end-5">
             {allSkills.map((skill, index) => (
@@ -125,7 +128,7 @@ function Skills() {
                   className="skills-section__title"
                   style={{ overflow: "hidden" }}
                 >
-                  <h2 className="text-left text-3xl">{skill.title}</h2>
+                  <h2 className="text-left text-3xl max-lg:text-2xl">{skill.title}</h2>
                 </div>
                 <div className="border border-gray-950 h-[0.01vh] w-full m-4"></div>
                 <div className="flex gap-3 flex-wrap">
@@ -133,7 +136,7 @@ function Skills() {
                     <div className="">
                       <div key={index}>
                         <div
-                          className="rounded-full p-2 w-20 h-20 grid place-content-center"
+                          className="rounded-full p-2 w-20 h-20 grid place-content-center max-lg:w-16 max-lg:h-16"
                           style={{
                             backgroundColor: `rgba(${skill.colorRGB}, .1)`,
                             border: `1px solid ${skill.color}`,
