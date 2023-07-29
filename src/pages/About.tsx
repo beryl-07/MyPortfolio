@@ -54,7 +54,7 @@ function About() {
                             </a>
                             <a
 
-                                href="#"
+                                href="https://beryl.hashnode.dev/"
                                 className="text-cyan-950 flex justify-evenly px-[1.9%] w-[15%] max-lg:w-[40%]"
                             >
                                 <svg

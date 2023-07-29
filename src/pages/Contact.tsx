@@ -18,22 +18,26 @@ function Contact() {
                         <ul className="list-none list-inside max-lg:leading-8">
                             <h3 className="font-semibold text-4xl py-3 max-lg:text-3xl">Contact</h3>
                             <li>
-                                <span className="text-[1.4vw] max-lg:text-sm">Twitter </span>
+                                <a href="https://twitter.com/Bryl_07" className="text-slate-700 hover:text-slate-700"><span className="text-[1.4vw] max-lg:text-sm">
+                                    Twitter 
+                                </span></a>
                             </li>
                             <li>
-                                <span className="text-[1.4vw] max-lg:text-sm">Whatsapp </span>
+                               <span className="text-[1.4vw] max-lg:text-sm">Whatsapp </span>
                             </li>
                         </ul>
                         <ul className="list-none list-inside max-lg:leading-8">
                             <h3 className="font-semibold text-4xl py-3 max-lg:text-3xl">Other</h3>
                             <li>
+                            <a href="https://www.linkedin.com/in/b%C3%A9ryl-houessou-03a016206/" className="text-slate-700 hover:text-slate-700" >
                                 <span className="text-[1.4vw] max-lg:text-sm">LinkedIn </span>
+                                </a>
                             </li>
                             <li>
-                                <span className="text-[1.4vw] max-lg:text-sm">Github <sub>@beryl452</sub></span>
+                                <a href="https://github.com/beryl452" className="text-slate-700 hover:text-slate-700"><span className="text-[1.4vw] max-lg:text-sm">Github <sub>@beryl452</sub></span></a>
                             </li>
                             <li>
-                                <span className="text-[1.4vw] max-lg:text-sm">Github <sub>@beryl-07</sub></span>
+                                <a href="https://github.com/beryl-07" className="text-slate-700 hover:text-slate-700"><span className="text-[1.4vw] max-lg:text-sm">Github <sub>@beryl-07</sub></span></a>
                             </li>
                         </ul>
                     </div>
